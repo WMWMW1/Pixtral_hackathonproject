@@ -5,7 +5,7 @@ from mistralai import Mistral
 api_key = os.environ["MISTRAL_API_KEY"]
 
 # Specify model
-model = "mistral-large-2407"
+model = "mistral-large-latest"
 
 # Initialize the Mistral client
 client = Mistral(api_key=api_key)
@@ -17,7 +17,7 @@ messages = [
         "content": [
             {
                 "type": "text",
-                "text": "whats my name??"
+                "text": "What's ymca?"
             }
         ]
     }
